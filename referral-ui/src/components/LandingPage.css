@@ -1,0 +1,124 @@
+/* LandingPage.css */
+.landing-page {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #31331F; /* Moss color */
+  color: white;
+  padding: 40px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #D6C9B4; /* Wood color */
+  color: white;
+  padding: 15px 25px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #B3A48B; /* A darker shade of Wood */
+}
+
+.hero-image img {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Features Section */
+.features-section {
+  padding: 50px 20px;
+  background-color: #D5CDBC; /* Oat color */
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-item {
+  max-width: 30%;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 50px 20px;
+  background-color: #24221E; /* Raisin Black color */
+  text-align: center;
+  color: white;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial {
+  width: 40%;
+  padding: 20px;
+  background-color: #455763; /* Navy color */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 18px;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #645D3B; /* Olive color */
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.cta-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.cta-section .cta-btn {
+  font-size: 20px;
+  padding: 15px 30px;
+  margin-top: 20px;
+}
